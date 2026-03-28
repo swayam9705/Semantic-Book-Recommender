@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+bin/
+lib/
+include/
+
+# Configuration and Secrets
+.env
+*.env
+auth.json
+secrets.py
+
+# LangChain & Vector DB locals
+# Prevents local vector stores (like Chroma or FAISS) from being uploaded
+*.db
+*.sqlite
+/db/
+/vector_store/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Project specific
+data/*.csv
+data/*.json
+!data/sample.csv
